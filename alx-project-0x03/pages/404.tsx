@@ -5,8 +5,6 @@ import Footer from '@/components/layouts/Footer';
 
 const Custom404 = () => {
   return (
-    <>
-      <Header />
       <div className="min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 flex flex-col justify-center items-center text-white">
         {/* Main Heading */}
         <h1 className="text-6xl font-bold mb-4">Oops! 😱</h1>
@@ -28,8 +26,6 @@ const Custom404 = () => {
           <span>Go Back Home</span>
         </Link>
       </div>
-      <Footer />
-    </>
   );
 }
 
