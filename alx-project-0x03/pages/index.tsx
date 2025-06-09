@@ -2,10 +2,7 @@ import Button from "@/components/common/Button";
 import { useRouter } from "next/router";
 import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
-
-interface PageRouteProps {
-  pageRoute: string
-}
+import { PageRouteProps } from "@/interface";
 
 export default function Home() {
   const router = useRouter();
